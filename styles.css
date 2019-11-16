@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: darkslategray;
+}
+.title {
+    font-family: Tomorrow;
+    color: black;
+}
+html, body {
+    margin: 0px;
+}
+
+.nav {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.nav li {
+    display: inline-block;
+    padding: 0 5%;
+}
+.nav a{
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+.nav a:hover {
+     background-color: rgba(255, 255, 255, .3);
+     
+}
+
+.main-header {
+    background-image: url("/images/tokyo-night23.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding: 20px;
+    
+}
+.title {
+    color: white;
+    text-align: center;
+}
+.content {
+    margin: 1em;
+}
+.main-footer {
+    background-color: #56CCf2;
+    color: black;
+    padding: .25em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-name {
+    color: white;
+    padding: 0 1em;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    display: inline-block;
+    padding: 0 0.5em;
+}
+.footer-nav img{
+ width: 50px;
+ height: 50px;
+}
+.subtitle {
+    color: rgb(40, 54, 54);
+}
