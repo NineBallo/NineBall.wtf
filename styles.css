@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 * {
     box-sizing: border-box;
     font-family: Roboto;
@@ -61,7 +62,8 @@ html, body {
     width: 100%;
 }
 .footer-name {
-    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
     padding: 0 1em;
 }
 .main-footer-container {
