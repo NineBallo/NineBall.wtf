@@ -5,12 +5,14 @@
 * {
     box-sizing: border-box;
     font-family: Roboto;
-    color: darkslategray;
+    color: rgb(187, 182, 182);
 }
+
 .title {
     font-family: Tomorrow;
     color: black;
 }
+
 html, body {
     margin: 0px;
 }
@@ -22,11 +24,13 @@ html, body {
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
+
 .nav li {
     display: inline-block;
     padding: 0 5%;
 }
-.nav a{
+
+.nav a {
     padding: .5em;
     color: white;
     text-decoration: none;
@@ -34,8 +38,7 @@ html, body {
 }
 
 .nav a:hover {
-     background-color: rgba(255, 255, 255, .3);
-     
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .main-header {
@@ -44,15 +47,17 @@ html, body {
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
     padding: 20px;
-    
 }
+
 .title {
     color: white;
     text-align: center;
 }
+
 .content {
     margin: 1em;
 }
+
 .main-footer {
     background-color: #56CCf2;
     color: black;
@@ -61,27 +66,43 @@ html, body {
     bottom: 0;
     width: 100%;
 }
+
 .footer-name {
     font-family: 'Fredericka the Great', cursive;
     color: black;
     padding: 0 1em;
 }
+
 .main-footer-container {
     display: flex;
     align-items: center;
 }
+
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
 }
-.footer-nav li{
+
+.footer-nav li {
     display: inline-block;
     padding: 0 0.5em;
 }
-.footer-nav img{
- width: 50px;
- height: 50px;
+
+.footer-nav img {
+    width: 50px;
+    height: 50px;
 }
+
 .subtitle {
-    color: rgb(40, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+.sublink {
+    text-decoration: none;
+}
+.sublink:hover{
+    text-decoration: underline;
+}
+body {
+    background-color: rgb(29, 29, 31);
 }
