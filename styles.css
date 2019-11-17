@@ -42,7 +42,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url("/images/tokyo-night23.png");
+    background-image: url("/images/header.png");
     background-size: cover;
     background-color: rgba(0, 0, 0, .6);
     background-blend-mode: multiply;
